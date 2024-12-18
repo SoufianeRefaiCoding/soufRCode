@@ -3,11 +3,17 @@ import Social from "@/components/Social";
 import Stats from "@/components/state";
 import { Button } from "@/components/ui/button";
 import {FiDownload} from "react-icons/fi"
+import Services from "./services/page";
+import Resume from "./resume/page";
+import Work from "./works/page";
+import Contact from "./contact/page";
+import Hero from "@/components/Hero";
 export default function Home() {
-  return (
+  return (<>
+    
    <section className="h-full">
     <div className="container mx-auto h-full">
-      <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
+      <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-4">
               <div className="text-center xl:text-left order-2 xl:order-none">
                 <span className="text-xl">Software  Developer</span>
                 <h1 className="h1 mb-6">
@@ -36,5 +42,10 @@ export default function Home() {
     </div>
     <Stats/>
    </section>
+    <Services/>
+    <Resume/>
+    <Work/>
+    <Contact/>
+   </>
   );
 }

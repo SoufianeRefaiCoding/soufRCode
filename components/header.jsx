@@ -4,6 +4,7 @@ import { Span } from "next/dist/trace";
 import Nav from "./Nav";
 import MobilNave from "./MobilNave";
 import Image from "next/image";
+import Hero from "./Hero";
 
 const Header=()=>{
      return(
@@ -25,7 +26,11 @@ const Header=()=>{
                 </div>
                 <div className="xl:hidden"><MobilNave/></div>
             </div>
+            <div className="flex  ">
+            <Hero/> 
+            </div>
         </header>
+      
     )
 }
 export default  Header
