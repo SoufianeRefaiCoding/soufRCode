@@ -26,9 +26,7 @@ const Header=()=>{
                 </div>
                 <div className="xl:hidden"><MobilNave/></div>
             </div>
-            <div className="flex  ">
-            <Hero/> 
-            </div>
+          
         </header>
       
     )

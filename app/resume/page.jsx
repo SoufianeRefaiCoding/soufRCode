@@ -137,13 +137,19 @@ const skills={
     ]
 }
 const Resume=()=>{
-    return(
+    return(<>
+        <div className="flex justify-center items-center my-8 pb-12">
+        <h2 className="text-4xl font-bold  text-outline text-accent-default transition-transform duration-500 ease-in-out hover:rotate-360 hover:text-accent-hover">
+        My Story & Skills
+        </h2>
+   </div>
     <motion.div initial={{opacity:0}} 
     animate={{
         opacity:1,
         transition:{delay:2.4,duration:0.4,ease:"easeIn"}}} 
     className=" flex min-h-[88vh] items-center justify-center py-12 xl:py-0"
     >
+      
     <div className="container mx-auto">
         <Tabs defaultValue="experience" className="flex flex-col xl:flex-row gap-[60px]">
             <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
@@ -251,6 +257,6 @@ const Resume=()=>{
         </Tabs>
     </div>
     </motion.div>
-    )
+    </> )
 }
 export default Resume;

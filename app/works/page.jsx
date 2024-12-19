@@ -77,7 +77,12 @@ const Work=()=>{
         // change project based on currunt index in state
         setProject(projects[currentIndexSlid])
     }
-    return(
+    return(<>
+        <div className="flex justify-center items-center my-12 pb-12">
+            <h2 className="text-4xl font-bold  text-outline text-accent-default transition-transform duration-500 ease-in-out hover:rotate-360 hover:text-accent-hover">
+                Projects That Define Me
+            </h2>
+        </div>
     <motion.section initial={{opacity:0}} animate={{opacity:1, transition:{delay:2.4, duration:0.4, ease:"easeIn"}}} 
     className="min-h-[88vh] flex flex-col justify-center py-12 xl:px-0">
 
@@ -163,6 +168,6 @@ const Work=()=>{
         </div>
     </div>
     </motion.section>
-    )
+    </>)
 }
 export default Work;

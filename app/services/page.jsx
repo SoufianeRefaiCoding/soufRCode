@@ -33,6 +33,11 @@ const services=[
 const Services=()=>{
     return(
         <section className="min-h-[80vh] flex flex-col justify-center py-12 xl:py-20">
+             <div className="flex justify-center items-center my-8 pb-12">
+                 <h2 className="text-4xl font-bold  text-outline text-accent-default transition-transform duration-500 ease-in-out hover:rotate-360 hover:text-accent-hover">
+                 Services I Provide
+                 </h2>
+            </div>
             <div className="container mx-auto">
                 <motion.div
                     initial={{opacity:0}} animate={{
