@@ -15,7 +15,7 @@ const projects=[
         title:"MessaDeco - WordPress eCommerce Website",
         description:"MessaDeco is a custom WordPress-based eCommerce platform tailored for stylish home decor enthusiasts. This project focused on creating a seamless shopping experience with a modern design, user-friendly navigation, and robust performance. Key features include product categorization, secure payment integration, and responsive design, ensuring accessibility across all devices.",
         stack:[{name:"Wordpress",icon:<BsWordpress/>}],
-        image:"/assets/work/MESSADECO_thb.png",
+        image:"/assets/work/messaDeco.png",
         live:"https://messadeco.com/",
         githup:""
     },{
@@ -24,7 +24,7 @@ const projects=[
         title:"Go & Study - Educational Consultancy Website",
         description:"Go & Study is a WordPress-based website designed for an international education consultancy. It offers a personalized approach to guiding students in planning their study-abroad journey. With an intuitive interface, it collects user preferences through simple questions and delivers tailored advice and resources, opening doors to global educational opportunities.",
         stack:[{name:"Wordpress",icon:<BsWordpress/>}],
-        image:"/assets/work/goand_study.png",
+        image:"/assets/work/goAndstudy.png",
         live:"https://goandstudy.ma/",
         githup:""
     },
@@ -67,6 +67,24 @@ const projects=[
         image:"/assets/work/toufayour.png",
         live:"https://toufayour.com/",
         githup:""
+    },{
+        num:"07",
+        category:"Cms",
+        title:"Neba Consulting - Study Abroad Guidance",
+        description:"Neba Consulting is a WordPress website dedicated to guiding Moroccan and international students in their study-abroad journeys. The platform offers a clear vision of future academic opportunities and employment prospects tailored to individual career paths. Neba Consulting combines expertise and personalized advice to help students achieve their educational and professional aspirations.",
+        stack:[{name:"wordpress",icon:<BsWordpress/>}],
+        image:"/assets/work/neba.png",
+        live:"https://nebaconsulting.ma/",
+        githup:""
+    },{
+        num:"08",
+        category:"Cms",
+        title:"Zaakzoon - Men's Clothing E-commerce Website",
+        description:"Zaakzoon is a stylish WordPress-based eCommerce platform specializing in men's clothing. The website offers a curated collection of high-quality apparel, combining modern design with an intuitive shopping experience. Featuring secure payment options, responsive design, and seamless navigation, Zaakzoon caters to fashion-conscious men seeking effortless online shopping.",
+        stack:[{name:"wordpress",icon:<BsWordpress/>}],
+        image:"/assets/work/zaakzoon.png",
+        live:"https://nebaconsulting.ma/",
+        githup:""
     }
 ]
 const Work=()=>{
@@ -78,7 +96,7 @@ const Work=()=>{
         setProject(projects[currentIndexSlid])
     }
     return(<>
-        <div className="flex justify-center items-center my-12 pb-12">
+        <div className="flex justify-center items-center my-12 ">
             <h2 className="text-4xl font-bold  text-outline text-accent-default transition-transform duration-500 ease-in-out hover:rotate-360 hover:text-accent-hover">
                 Projects That Define Me
             </h2>

@@ -74,18 +74,18 @@ const experience={
 const education={
     icon:"",
     title:"My Education",
-    description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis maxime corrupti, incidunt veritatis non.",
+    description:"I have a strong educational background in technology and digital development, with a focus on system engineering and specialized technical skills. ",
     items:[
         {
             institution:"Supmti",
             degree:"Ingénierie des Systèmes Informatiques",
             doration:"2024-2025"
         },{
-            institution:"Ista",
+            institution:"Ofppt",
             degree:"Technician Specialized in Digital Development",
             doration:"2022 - 2024"
         },{
-            institution:"salah eddin ayoube",
+            institution:"Salah Eddin Ayoube",
             degree:"Baccalaureate in Experimental Sciences",
             doration:"2018 - 2019"
         },
@@ -211,7 +211,7 @@ const Resume=()=>{
                 <div className="flex flex-col gap-[30px] ">
                     <div className="flex flex-col gap-[30px] text-center xl:text-left">
                             <h3 className="text-4xl font-bold">{skills.title}</h3>
-                            <p className="max-w-[600px] text-white/60px mx-auto xl:mx-0">{skills.description}</p>
+                            <p className="max-w-[600px] text-white/60  mx-auto xl:mx-0">{skills.description}</p>
                     </div>
                     <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 xl:gap-[30px] gap-4">
                         {

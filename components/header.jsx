@@ -12,7 +12,7 @@ const Header=()=>{
             <div className="container mx-auto flex justify-between items-center">
                 <Link href="/">
                     {/* <h1 className="text-4xl font-semibold"> */}
-                    <Image src="/assets/Logo_src.png" alt="Logo"
+                    <Image src="/assets/Logo_Souf_RCode.png" alt="Logo"
             width={120} 
             height={40}/>
                     {/* <span className="text-accent-default">{"</>"}</span> */}

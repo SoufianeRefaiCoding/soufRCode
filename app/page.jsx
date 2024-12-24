@@ -7,7 +7,6 @@ import Services from "./services/page";
 import Resume from "./resume/page";
 import Work from "./works/page";
 import Contact from "./contact/page";
-import Hero from "@/components/Hero";
 export default function Home() {
   return (<>
     

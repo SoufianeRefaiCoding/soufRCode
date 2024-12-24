@@ -24,7 +24,7 @@ const info=[
 import { motion } from "framer-motion";
 const Contact = () => {
     return <>
-        <motion.section initial={{opacity:0}} animate={{opacity:1, transition:{delay:2.4, duration:0.4, ease:"easeIn"}}} className="py-6">
+        <motion.section initial={{opacity:0}} animate={{opacity:1, transition:{delay:2.4, duration:0.4, ease:"easeIn"}}} className="py-8 xl:py-20 xl:mt-20">
             <div className="container mx-auto">
                 <div className="flex flex-col xl:flex-row gap-[30px]">
                     {/* form */}

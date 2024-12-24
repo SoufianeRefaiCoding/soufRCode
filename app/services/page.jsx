@@ -8,25 +8,25 @@ const services=[
     {
         num:1,
         title:"web development",
-        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam dolor alias labore",
+        description:"I create responsive, modern websites tailored to your needs, ensuring great performance and usability.",
         href:""
     },
     {
         num:2,
-        title:"UI/UX  Design",
-        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam dolor alias labore",
+        title:"Problem Solving",
+        description:"I fix bugs, enhance performance, and optimize your code to keep your projects running smoothly.",
          href:""
     },
     {
         num:3,
-        title:"logo design",
-        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam dolor alias labore",
+        title:"SEO Optimization",
+        description:"I boost your website’s visibility on search engines with effective SEO strategies and faster load times.",
          href:""
     },
     {
         num:4,
-        title:"SEO",
-        description:"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam dolor alias labore",
+        title:"Consulting & Training",
+        description:"I provide expert guidance and training to help you or your team excel in web development.",
          href:""
     },
 ]

@@ -10,16 +10,17 @@ const Photo=()=>{
                 opacity:1,
                 transition:{delay:2, duration:0.4, ease:"easeInOut"}
             }}
-            className="  mix-blend-lighten w-[298px] h-[298px] xl:w-[438px] xl:h-[438px] absolute">
+            className="  mix-blend-lighten w-[248px] h-[248px] xl:w-[438px] xl:h-[438px] absolute">
                 <Image 
                 src='/assets/profil11.png'
                 priority
                 quality={100}
                 fill
                 alt=""
-                className='object-contain '
+                className='object-contain rounded-b-lg'
                 />
-            </motion.div>
+  <div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 h-16 w-2/3 bg-gradient-to-t from-black/30 to-transparent rounded-b-lg" ></div>
+  </motion.div>
         </motion.div>
 {/*circle*/}
         <motion.svg className="w-[300px] xl:w-[506px] h-[300px] xl:h-[506px]"

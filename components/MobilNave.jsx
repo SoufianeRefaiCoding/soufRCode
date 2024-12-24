@@ -35,12 +35,12 @@ const MobilNave=()=>{
             <CiMenuFries className="text-[32] text-accent-default"/>
         </SheetTrigger>
         <SheetContent className="flex flex-col">
-            <div className="mt-32 mb-40 text-center text-2xl">
+            <div className="mt-3 mb-4 text-center text-2xl">
             <Link href="/">
                     {/* <h1 className="text-4xl font-semibold">
                     soufRCode<span className="text-accent-default">.</span>
                     </h1> */}
-                    <Image src="/assets/Logo_src.png" alt="Logo"  
+                    <Image src="/assets/Logo_Souf_RCode.png" alt="Logo"  
             width={120} 
             height={40}/>
                 </Link>
