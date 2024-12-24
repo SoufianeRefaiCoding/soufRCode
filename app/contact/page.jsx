@@ -106,7 +106,7 @@ const Contact = () => {
               onSubmit={handleSubmit}
             >
               <h3 className="text-4xl text-accent-default">Let's work together</h3>
-              <p className="text-white/60">
+              <p className="text-white/60 capitalize">
                 Reach out for collaborations or inquiries. Fill out the form, and we’ll get back to you promptly!
               </p>
               <div className="gap-6 grid-cols-1 md:grid-cols-2 grid">
@@ -162,7 +162,7 @@ const Contact = () => {
                 value={formData.message}
                 onChange={handleInputChange}
               />
-              <Button size="md" className="max-w-40" type="submit">
+              <Button size="md" className="max-w-40 text-primary" type="submit">
                 Send message
               </Button>
             </form>

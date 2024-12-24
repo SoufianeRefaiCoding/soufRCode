@@ -59,7 +59,7 @@ const Services=()=>{
                                         </Link>
                                     </div>
                                     <h2 className="text-[] capitalize">{el.title}</h2>
-                                    <p className="text-white/60">{el.description}</p>
+                                    <p className="text-white/60 capitalize">{el.description}</p>
                                     <div className="border-b border-white/28 w-full"></div>
                                 </div>
                             )

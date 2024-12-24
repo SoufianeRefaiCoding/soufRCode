@@ -32,7 +32,7 @@ const Stats=()=>{
                                 />
                                 <p className={`${el.text.length<15 ? "max-w-[100px]" :
                                     "max-w-[150px]"
-                                }leading-snug text-white/80`}>{el.text}</p>
+                                }leading-snug text-white/80 capitalize`}>{el.text}</p>
                             </div>
                         )
                     })
