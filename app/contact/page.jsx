@@ -167,7 +167,6 @@ const Contact = () => {
               </Button>
             </form>
             {status && <p>{status}</p>}
-            <h2>sr: {formData.service}</h2>
           </div>
 
           {/* Personal Information */}
