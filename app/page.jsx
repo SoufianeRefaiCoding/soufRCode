@@ -8,8 +8,8 @@ import Resume from "./resume/page";
 import Work from "./works/page";
 import Contact from "./contact/page";
 export default function Home() {
-  return (<>
-    
+  return (
+  <>   
    <section className="h-full">
     <div className="container mx-auto h-full">
       <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-4">
