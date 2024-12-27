@@ -28,8 +28,8 @@ export default function Home() {
                   </Button> */}
                   <Button variant="outline" size="lg" className="uppercase flex items-center gap-2 ">
                         <a 
-                          href="/assets/soufianeRefai.pdf" 
-                          download="My-CV" 
+                          href="/assets/refaiSoufiane_2.pdf" 
+                          download="soufianeRefai-CV" 
                           className="uppercase flex items-center gap-2 "
                         >
                           <span>Download CV</span>

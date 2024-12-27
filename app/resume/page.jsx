@@ -40,11 +40,11 @@ const experience={
         {
             company:"Freelance Web Developer",
             position:"Web developer",
-            doration:"2025"
+            doration:"2022"
         },
         {
             company:"Start Solution",
-            position:"Web Developer Intern",
+            position:"Full Stack Developer Intern",
             doration:"2024"
         },
         {
@@ -54,13 +54,13 @@ const experience={
         },
         {
             company:"Tek Inside",
-            position:"Web Developer Intern",
-            doration:"2022-2023"
+            position:"Full Stack Developer Intern",
+            doration:"2022"
         },
         {
             company:"Cnm Network",
             position:"Web Developer Intern",
-            doration:"2021-2022"
+            doration:"2021"
         }, 
         {
             company:"OpenClassrooms",
@@ -78,7 +78,7 @@ const education={
     items:[
         {
             institution:"Supmti",
-            degree:"Ingénierie des Systèmes Informatiques",
+            degree:"Computer Systems Engineering",
             doration:"2024-2025"
         },{
             institution:"Ofppt",
@@ -86,7 +86,7 @@ const education={
             doration:"2022 - 2024"
         },{
             institution:"Salah Eddin Ayoube",
-            degree:"Baccalaureate in Experimental Sciences",
+            degree:"Bachelor in Experimental Sciences",
             doration:"2018 - 2019"
         },
         
