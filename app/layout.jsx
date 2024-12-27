@@ -17,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "SoufRCode",
+  title: "Soufiane refai",
   description: "my portfolio",
 };
 const JetBrainsMono=JetBrains_Mono({
