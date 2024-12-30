@@ -8,14 +8,14 @@ import { Tooltip,TooltipContent,TooltipTrigger,TooltipProvider} from "@/componen
 import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/workSliderBtn";
-import { SiLaravel } from "react-icons/si";
+import { SiCss3, SiLaravel, SiMysql, SiTailwindcss } from "react-icons/si";
 const projects=[
     {
         num:"01",
         category:"Laravel",
         title:"LuxyCar - Car Rental Management System",
         description:"LuxyCar is a car rental web application developed as a graduation project using the Laravel framework. It allows users to register, explore available cars, and make bookings seamlessly. The admin panel provides full control over car listings, bookings, and user management. Key features include user registration and authentication, car listing and management, booking management, and an intuitive admin panel for efficient oversight. The system is designed to streamline car rental operations and enhance user experience.",
-        stack:[{name:"Laravel",icon:<SiLaravel/>}],
+        stack:[{name:"Laravel",icon:<SiLaravel/>},{name:"Mysql",icon:<SiMysql/>},{name:"Tailwindcss",icon:<SiTailwindcss/>}],
         image:"/assets/work/luxyCar.png",
         live:"https://github.com/SoufianeRefaiCoding/luxyCar",
         githup:"https://github.com/SoufianeRefaiCoding/luxyCar"
@@ -31,13 +31,13 @@ const projects=[
     },
     {
         num:"03",
-        category:"Cms",
-        title:"Le Bon Assureur - Insurance Broker Showcase Website",
-        description:"Le Bon Assureur is a professional WordPress showcase website for an experienced insurance brokerage firm. With over 15 years of expertise, the platform highlights tailored insurance solutions for both individuals and businesses. It emphasizes trust, protection, and growth by showcasing services that empower clients to pursue their goals with confidence and peace of mind.",
-        stack:[{name:"Wordpress",icon:<BsWordpress/>}],
-        image:"/assets/work/le-bonassureur.png",
-        live:"https://le-bonassureur.fr/",
-        githup:""
+        category:"Laravel",
+        title:"Gym Management System",
+        description:"This project is a web application designed to manage gym operations efficiently. Built with the Laravel framework, it allows for the management of training sessions, coaches, and gym branches across different cities. Key features include user registration, session scheduling, coach assignments, and city-specific branch management. The system aims to simplify administrative tasks and improve the overall gym experience for both staff and members.",
+        stack:[{name:"Laravel",icon:<SiLaravel/>},{name:"Mysql",icon:<SiMysql/>},{name:"Css",icon:<SiCss3/>}],
+        image:"/assets/work/gym.png",
+        live:"",
+        githup:"https://github.com/SoufianeRefaiCoding/Gym-Management-System"
     },
     {
         num:"04",
@@ -94,6 +94,15 @@ const projects=[
         stack:[{name:"Wordpress",icon:<BsWordpress/>}],
         image:"/assets/work/clinova.png",
         live:"https://clinova.net/",
+        githup:""
+    },,{
+        num:"09",
+        category:"Cms",
+        title:"Le Bon Assureur - Insurance Broker Showcase Website",
+        description:"Le Bon Assureur is a professional WordPress showcase website for an experienced insurance brokerage firm. With over 15 years of expertise, the platform highlights tailored insurance solutions for both individuals and businesses. It emphasizes trust, protection, and growth by showcasing services that empower clients to pursue their goals with confidence and peace of mind.",
+        stack:[{name:"Wordpress",icon:<BsWordpress/>}],
+        image:"/assets/work/le-bonassureur.png",
+        live:"https://le-bonassureur.fr/",
         githup:""
     },
 ]
