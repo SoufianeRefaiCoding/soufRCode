@@ -8,16 +8,17 @@ import { Tooltip,TooltipContent,TooltipTrigger,TooltipProvider} from "@/componen
 import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/workSliderBtn";
+import { SiLaravel } from "react-icons/si";
 const projects=[
     {
         num:"01",
-        category:"CMS",
-        title:"MessaDeco - WordPress eCommerce Website",
-        description:"MessaDeco is a custom WordPress-based eCommerce platform tailored for stylish home decor enthusiasts. This project focused on creating a seamless shopping experience with a modern design, user-friendly navigation, and robust performance. Key features include product categorization, secure payment integration, and responsive design, ensuring accessibility across all devices.",
-        stack:[{name:"Wordpress",icon:<BsWordpress/>}],
-        image:"/assets/work/messaDeco.png",
-        live:"https://messadeco.com/",
-        githup:""
+        category:"Laravel",
+        title:"LuxyCar - Car Rental Management System",
+        description:"LuxyCar is a car rental web application developed as a graduation project using the Laravel framework. It allows users to register, explore available cars, and make bookings seamlessly. The admin panel provides full control over car listings, bookings, and user management. Key features include user registration and authentication, car listing and management, booking management, and an intuitive admin panel for efficient oversight. The system is designed to streamline car rental operations and enhance user experience.",
+        stack:[{name:"Laravel",icon:<SiLaravel/>}],
+        image:"/assets/work/luxyCar.png",
+        live:"https://github.com/SoufianeRefaiCoding/luxyCar",
+        githup:"https://github.com/SoufianeRefaiCoding/luxyCar"
     },{
         num:"02",
         category:"CMS",
@@ -41,11 +42,11 @@ const projects=[
     {
         num:"04",
         category:"Cms",
-        title:"Clinova - Clinical Development Support Website",
-        description:"Clinova is a WordPress website designed for a clinical development consultancy specializing in diverse therapeutic modalities. From traditional small molecule medications to advanced therapies, the platform highlights the firm's commitment to staying at the forefront of scientific innovation. It provides insights into tailored solutions, ensuring clients receive expert guidance in the evolving landscape of medical development.",
-        stack:[{name:"Wordpress",icon:<BsWordpress/>}],
-        image:"/assets/work/clinova.png",
-        live:"https://clinova.net/",
+        title:"Toufayour - Jewelry Sales Website",
+        description:"Toufayour is a WordPress-based eCommerce website specializing in the sale of exquisite jewelry. Designed to captivate customers, the platform combines elegant aesthetics with easy navigation. It features a curated collection of jewelry, secure payment options, and responsive design, offering a seamless shopping experience for every jewelry lover.",
+        stack:[{name:"wordpress",icon:<BsWordpress/>}],
+        image:"/assets/work/toufayour.png",
+        live:"https://toufayour.com/",
         githup:""
     },
     
@@ -60,12 +61,12 @@ const projects=[
         githup:""
     },{
         num:"06",
-        category:"Cms",
-        title:"Toufayour - Jewelry Sales Website",
-        description:"Toufayour is a WordPress-based eCommerce website specializing in the sale of exquisite jewelry. Designed to captivate customers, the platform combines elegant aesthetics with easy navigation. It features a curated collection of jewelry, secure payment options, and responsive design, offering a seamless shopping experience for every jewelry lover.",
-        stack:[{name:"wordpress",icon:<BsWordpress/>}],
-        image:"/assets/work/toufayour.png",
-        live:"https://toufayour.com/",
+        category:"CMS",
+        title:"MessaDeco - WordPress eCommerce Website",
+        description:"MessaDeco is a custom WordPress-based eCommerce platform tailored for stylish home decor enthusiasts. This project focused on creating a seamless shopping experience with a modern design, user-friendly navigation, and robust performance. Key features include product categorization, secure payment integration, and responsive design, ensuring accessibility across all devices.",
+        stack:[{name:"Wordpress",icon:<BsWordpress/>}],
+        image:"/assets/work/messaDeco.png",
+        live:"https://messadeco.com/",
         githup:""
     },{
         num:"07",
@@ -85,7 +86,16 @@ const projects=[
         image:"/assets/work/zaakzoon.png",
         live:"https://nebaconsulting.ma/",
         githup:""
-    }
+    },{
+        num:"09",
+        category:"Cms",
+        title:"Clinova - Clinical Development Support Website",
+        description:"Clinova is a WordPress website designed for a clinical development consultancy specializing in diverse therapeutic modalities. From traditional small molecule medications to advanced therapies, the platform highlights the firm's commitment to staying at the forefront of scientific innovation. It provides insights into tailored solutions, ensuring clients receive expert guidance in the evolving landscape of medical development.",
+        stack:[{name:"Wordpress",icon:<BsWordpress/>}],
+        image:"/assets/work/clinova.png",
+        live:"https://clinova.net/",
+        githup:""
+    },
 ]
 const Work=()=>{
     const[project,setProject]=useState(projects[0])
