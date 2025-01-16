@@ -5,6 +5,8 @@ import Header from "@/components/header";
 import PageTransition from "@/components/pageTransition";
 import StairTransition from "@/components/stairTransition";
 import StarsCanvas from "@/components/StarBackground";
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
@@ -36,6 +38,7 @@ export default function RootLayout({ children }) {
         <StairTransition/>
         <PageTransition>
           {children}
+          <SpeedInsights />
         </PageTransition>
         <StarsCanvas/>
       </body>
