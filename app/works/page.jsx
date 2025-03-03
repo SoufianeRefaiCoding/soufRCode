@@ -95,7 +95,7 @@ const projects=[
         image:"/assets/work/clinova.png",
         live:"https://clinova.net/",
         githup:""
-    },,{
+    },{
         num:"09",
         category:"Cms",
         title:"Le Bon Assureur - Insurance Broker Showcase Website",
@@ -128,25 +128,25 @@ const Work=()=>{
             <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">   
                 <div className="flex flex-col gap-[30px] h-[50%]">
                     <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
-                        {project.num}
+                    {project?.num}
                     </div>
                     <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent-default transition-all duration-500 capitalize">
-                        {project.title} 
+                        {project?.title} 
                     </h2>
                     <span className="text-[22px] leading-none text-white group-hover:text-accent-default transition-all duration-500 capitalize">
-                        {project.category} Project
+                        {project?.category} Project
                     </span>
-                    <p className=" text-white/60">{project.description}</p>
+                    <p className=" text-white/60">{project?.description}</p>
                     <ul className="flex gap-4">
-                        {project.stack.map((el,index)=>{
+                        {project?.stack.map((el,index)=>{
                             return <li key={index} className="text-xl text-accent-default flex flex-row">{el.name}{el.icon}
-                            {index !== project.stack.length -1 && ","}
+                            {index !== project?.stack.length -1 && ","}
                             </li>
                         })}
                     </ul>
                     <div className="border border-white/20"></div>
                     <div className=" flex items-center gap-4">
-                        <Link href={project.live}>
+                        <Link href={project?.live}>
                         <TooltipProvider delayDuration={100}>
                             <Tooltip>
                                 <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5  flex justify-center items-center group">
@@ -159,7 +159,7 @@ const Work=()=>{
                             </Tooltip>
                         </TooltipProvider>
                         </Link>
-                        <Link href={project.githup}>
+                        <Link href={project?.githup}>
                         <TooltipProvider delayDuration={100}>
                             <Tooltip>
                                 <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5  flex justify-center items-center group">
@@ -188,7 +188,7 @@ const Work=()=>{
                                 <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div>
                                 {/* image */}
                                 <div className="relative h-full w-full ">
-                                    <Image src={project.image} fill className="object-cover" alt=""/>
+                                    <Image src={project?.image} fill className="object-cover" alt=""/>
                                 </div>
                             </div>
                         </SwiperSlide>
