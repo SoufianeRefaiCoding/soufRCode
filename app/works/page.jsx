@@ -8,25 +8,27 @@ import { Tooltip,TooltipContent,TooltipTrigger,TooltipProvider} from "@/componen
 import Link from "next/link";
 import Image from "next/image";
 import WorkSliderBtns from "@/components/workSliderBtn";
-import { SiCss3, SiLaravel, SiMysql, SiTailwindcss } from "react-icons/si";
+import { SiCss3, SiLaravel, SiMysql, SiTailwindcss,SiJquery,SiBootstrap } from "react-icons/si";
 const projects=[
-    {
+     {
         num:"01",
         category:"Laravel",
-        title:"LuxyCar - Car Rental Management System",
-        description:"LuxyCar is a car rental web application developed as a graduation project using the Laravel framework. It allows users to register, explore available cars, and make bookings seamlessly. The admin panel provides full control over car listings, bookings, and user management. Key features include user registration and authentication, car listing and management, booking management, and an intuitive admin panel for efficient oversight. The system is designed to streamline car rental operations and enhance user experience.",
-        stack:[{name:"Laravel",icon:<SiLaravel/>},{name:"Mysql",icon:<SiMysql/>},{name:"Tailwindcss",icon:<SiTailwindcss/>}],
-        image:"/assets/work/luxyCar.png",
-        live:"https://github.com/SoufianeRefaiCoding/luxyCar",
-        githup:"https://github.com/SoufianeRefaiCoding/luxyCar"
-    },{
+        title:"animarok -  E-commerce Website for Moroccan Handicrafts",
+        description:"Animarok is a dynamic e-commerce platform built with Laravel, tailored to showcase and sell Moroccan handcrafted products. It offers a smooth and responsive user interface, product browsing with filters, secure order submission, and admin-side order management. The system also features a user-friendly checkout experience and integration with WhatsApp for quick customer communication.",
+        stack:[{name:"Laravel",icon:<SiLaravel/>},{name:"Mysql",icon:<SiMysql/>}, { name: "Bootstrap", icon: <SiBootstrap /> },
+        { name: "jQuery", icon: <SiJquery /> }],
+        image:"/assets/work/animarok.png",
+        live:"https://www.animarok.com/",
+        githup:"https://github.com/SoufianeRefaiCoding/animarok"
+    }
+    ,{
         num:"02",
         category:"CMS",
         title:"Go & Study - Educational Consultancy Website",
         description:"Go & Study is a WordPress-based website designed for an international education consultancy. It offers a personalized approach to guiding students in planning their study-abroad journey. With an intuitive interface, it collects user preferences through simple questions and delivers tailored advice and resources, opening doors to global educational opportunities.",
         stack:[{name:"Wordpress",icon:<BsWordpress/>}],
         image:"/assets/work/goAndstudy.png",
-        live:"https://goandstudy.ma/",
+        live:"https://goandstudy.ma",
         githup:""
     },
     {
@@ -52,13 +54,13 @@ const projects=[
     
     {
         num:"05",
-        category:"Cms",
-        title:"Verbnb - Short-Term Rental Management Website",
-        description:"Verbnb is a WordPress platform dedicated to comprehensive property management for short-term rentals. The site showcases services that handle every aspect of property management, enabling owners to maximize rental income hassle-free. From guest communication to maintenance, Verbnb ensures a seamless and stress-free experience for property owners.",
-        stack:[{name:"wordpress",icon:<BsWordpress/>}],
-        image:"/assets/work/verbnb.png",
-        live:"https://verbnb.com/",
-        githup:""
+        category:"Laravel",
+        title:"LuxyCar - Car Rental Management System",
+        description:"LuxyCar is a car rental web application developed as a graduation project using the Laravel framework. It allows users to register, explore available cars, and make bookings seamlessly. The admin panel provides full control over car listings, bookings, and user management. Key features include user registration and authentication, car listing and management, booking management, and an intuitive admin panel for efficient oversight. The system is designed to streamline car rental operations and enhance user experience.",
+        stack:[{name:"Laravel",icon:<SiLaravel/>},{name:"Mysql",icon:<SiMysql/>},{name:"Tailwindcss",icon:<SiTailwindcss/>}],
+        image:"/assets/work/luxyCar.png",
+        live:"https://github.com/SoufianeRefaiCoding/luxyCar",
+        githup:"https://github.com/SoufianeRefaiCoding/luxyCar"
     },{
         num:"06",
         category:"CMS",
@@ -105,6 +107,16 @@ const projects=[
         live:"https://le-bonassureur.fr/",
         githup:""
     },
+    {
+        num:"10",
+        category:"Cms",
+        title:"Verbnb - Short-Term Rental Management Website",
+        description:"Verbnb is a WordPress platform dedicated to comprehensive property management for short-term rentals. The site showcases services that handle every aspect of property management, enabling owners to maximize rental income hassle-free. From guest communication to maintenance, Verbnb ensures a seamless and stress-free experience for property owners.",
+        stack:[{name:"wordpress",icon:<BsWordpress/>}],
+        image:"/assets/work/verbnb.png",
+        live:"https://verbnb.com/",
+        githup:""
+    }
 ]
 const Work=()=>{
     const[project,setProject]=useState(projects[0])
