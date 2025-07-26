@@ -117,6 +117,17 @@ const projects=[
         live:"https://verbnb.com/",
         githup:""
     }
+    , {
+    num: "11",
+    category: "CMS",
+    title: "Tubkal e.V. – Charity Association Website",
+    description: "Tubkal e.V. is a WordPress-based website developed for a charity association. The platform highlights the association’s mission, ongoing projects, and donation initiatives. It features multilingual support, a responsive design, and clear navigation to encourage community engagement and transparency.",
+    stack: [{ name: "wordpress", icon: <BsWordpress /> }],
+    image: "/assets/work/tubkal-ev.png",
+    live: "https://tubkal-ev.com/",
+    githup: ""
+}
+
 ]
 const Work=()=>{
     const[project,setProject]=useState(projects[0])
